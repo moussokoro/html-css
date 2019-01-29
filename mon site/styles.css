@@ -1,0 +1,93 @@
+/*GENERAL*/
+*
+{
+	padding: 1px;
+	margin: 1px;
+	font-family: Century Gothic,sans-serif;
+}
+/*HEADER*/
+ul
+{
+	list-style: none;
+	float: right;
+}
+	
+a
+{
+	text-decoration: none;
+}
+ul li
+{
+	display: inline-block;
+	margin-top: 20px;
+}
+
+header
+{  height:  666px; 
+	background-image: url(img/article-image-2.jpg);
+	background-size:cover;
+	background-position:center;
+}
+
+
+ ul li a
+{
+	color: #fff;
+	padding: 5px 10px;
+	border: 1px solid transparent;
+	border-radius: 5px;
+	transition: 0.6s ease;
+
+}
+ul li a:hover 
+{  background-color: orange;
+	color: #fff;
+
+
+}
+ul li.active a
+{
+  background-color:  #02b8dd;
+	color: #fff;
+}
+.logo
+{
+	float: left;
+	width: 150px;
+	height: auto;
+}
+.title h1
+{
+	position: absolute;
+	text-align: center;
+	top: 30%;
+	transform: translate(50%,50%);
+}
+.title h1
+{
+	color: indigo;
+	font-size: 70px;
+
+
+}
+.button
+{
+	position: absolute;
+	left: 30%;
+	top: 40%;
+	transform: translate(50%,50%);
+	margin-top: 60px;
+	transition: 0.6s ease;
+}
+.btn
+{
+    color: #fff;
+	padding: 10px;
+	border: 1px solid #fff;
+	border-radius: 5px;
+}
+.btn:hover
+{
+	 background-color: orange;
+	color: #fff;
+}
